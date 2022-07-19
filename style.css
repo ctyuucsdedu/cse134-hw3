@@ -42,7 +42,7 @@ body main div#right-column {
 }
 
 body main div section {
-    border: 1px dashed var(--border-color);
+    border: 3px dashed var(--border-color);
     padding: var(--section-distance);
     margin: var(--section-distance);
 }
