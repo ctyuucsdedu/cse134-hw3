@@ -1,6 +1,7 @@
 :root {
     --body-color: lightblue;
-    --section-padding: 1em;
+    --border-color: royalblue;
+    --section-distance: 1rem;
 }
 
 body {
@@ -10,7 +11,7 @@ body {
 }
 
 @keyframes titleAnimation {
-    0% {color: royalblue;}
+    0% {color: var(--border-color);}
     50% {color:green;}
     100% {color:orangered;}
 }
@@ -41,8 +42,9 @@ body main div#right-column {
 }
 
 body main div section {
-    border: 1px dashed white;
-    padding: var(--section-padding);
+    border: 1px dashed var(--border-color);
+    padding: var(--section-distance);
+    margin: var(--section-distance);
 }
 
 body h2 {
